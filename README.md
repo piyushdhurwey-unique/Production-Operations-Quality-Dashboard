@@ -19,3 +19,4 @@ Plant managers need immediate visibility into machine performance and defect rat
 * **Data Transformation (ETL):** Power Query (Merged tables, handled missing values, standardized shift timestamps).
 * **Data Modeling:** Power BI (Built a Star Schema connecting Fact tables to Dimension tables like `Date`, `Machine_ID`, and `Shift_Details`).
 * **Calculations:** DAX (Created custom measures for rolling averages, YTD production, and efficiency percentages).
+* The data model follows a Star Schema architecture with Machine and Date dimension tables connected to production, downtime, and quality fact tables to ensure       efficient analytics and avoid many-to-many relationships.
